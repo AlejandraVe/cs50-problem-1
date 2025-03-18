@@ -14,15 +14,15 @@ In a file called hello.c, in a folder called me, implement a program in C that p
 
 Toward the end of World 1-1 in Nintendo’s Super Mario Bros., Mario must ascend right-aligned pyramid of bricks, as in the below.
 
-![image](https://github.com/user-attachments/assets/984b6a86-69af-4714-842b-3abbf2e8fa03)
+![image](https://github.com/user-attachments/assets/0945b28a-2323-4ab3-aa36-51ad1ba0b065)
 
 In a file called mario.c in a folder called mario-less, implement a program in C that recreates that pyramid, using hashes (#) for bricks, as in the below:
 
-![image](https://github.com/user-attachments/assets/7ef3c96d-dbbe-4e9a-8a4e-45ae08a22054)
+![image](https://github.com/user-attachments/assets/77f8bc16-d36f-4804-935e-576c61595b4e)
 
 But prompt the user for an int for the pyramid’s actual height, so that the program can also output shorter pyramids like the below:
 
-![image](https://github.com/user-attachments/assets/e183ef3a-8b2f-4b98-ae5f-36af728931e5)
+![image](https://github.com/user-attachments/assets/0ae14a59-23a9-4406-ae9a-11740785bd34)
 
 Re-prompt the user, again and again as needed, if their input is not greater than 0 or not an int altogether.
 
@@ -30,11 +30,11 @@ Re-prompt the user, again and again as needed, if their input is not greater tha
 
 Toward the beginning of World 1-1 in Nintendo’s Super Mario Brothers, Mario must hop over adjacent pyramids of blocks, per the below.
 
-![image](https://github.com/user-attachments/assets/faf62f81-e0c6-4d28-81b6-ffef6e85cff4)
+![image](https://github.com/user-attachments/assets/5fad7adc-2183-4f70-8d9e-96b08e40d7dc)
 
 In a file called mario.c in a folder called mario-more, implement a program in C that recreates that pyramid, using hashes (#) for bricks, as in the below:
 
-![image](https://github.com/user-attachments/assets/695b141a-67c9-4066-bd67-3549c069b105)
+![image](https://github.com/user-attachments/assets/25845f81-d6dd-4576-88b3-a584b4e2d176)
 
 And let’s allow the user to decide just how tall the pyramids should be by first prompting them for a positive int between, say, 1 and 8, inclusive.
 
@@ -45,11 +45,11 @@ Notice that width of the “gap” between adjacent pyramids is equal to the wid
 
 Suppose you work at a store and a customer gives you $1.00 (100 cents) for candy that costs $0.50 (50 cents). You’ll need to pay them their “change,” the amount leftover after paying for the cost of the candy. When making change, odds are you want to minimize the number of coins you’re dispensing for each customer, lest you run out (or annoy the customer!). In a file called cash.c in a folder called cash, implement a program in C that prints the minimum coins needed to make the given amount of change, in cents, as in the below:
 
-![image](https://github.com/user-attachments/assets/7ffa0d61-3387-47dd-9854-079362a0e16c)
+![image](https://github.com/user-attachments/assets/01e42858-432a-4262-9920-041f822ecd3a)
 
 But prompt the user for an int greater than 0, so that the program works for any amount of change:
 
-![image](https://github.com/user-attachments/assets/cb8f9447-19b7-4c3e-b50f-37967ad2bdf1)
+![image](https://github.com/user-attachments/assets/e62967d1-306d-4007-b3b0-656cb920e6de)
 
 Re-prompt the user, again and again as needed, if their input is not greater than or equal to 0 (or if their input isn’t an int at all!).
 
@@ -99,15 +99,15 @@ In the file called credit.c in the credit directory, write a program that prompt
 
 Consider the below representative of how your own program should behave when passed a valid credit card number (sans hyphens).
 
-![image](https://github.com/user-attachments/assets/121343cb-6fe6-4565-8a6e-87703cceeb64)
+![image](https://github.com/user-attachments/assets/ca36f3d3-62a4-46ae-960c-995d3d2fbd5d)
 
 Now, get_long itself will reject hyphens (and more) anyway:
 
-![image](https://github.com/user-attachments/assets/5d5b0514-df66-4c03-9d2a-9c1cc3594012)
+![image](https://github.com/user-attachments/assets/ff7b2527-3bf4-41fd-be2b-4065acd398c3)
 
 But it’s up to you to catch inputs that are not credit card numbers (e.g., a phone number), even if numeric:
 
-![image](https://github.com/user-attachments/assets/feecbcdc-5804-4fd9-80fa-e1600dd2bbd0)
+![image](https://github.com/user-attachments/assets/4773ef80-60e1-45df-9cbd-565bad157eb5)
 
 Test out your program with a whole bunch of inputs, both valid and invalid. (We certainly will!) Here are a few card numbers that PayPal recommends for testing.
 
