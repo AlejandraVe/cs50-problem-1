@@ -1,16 +1,16 @@
-<h4>This repository involves Problem Set 1 Week 1 from the course CS50’s Introduction to Computer Science</h4>
+<h3>This repository involves Problem Set 1 Week 1 from the course CS50’s Introduction to Computer Science</h3>
 
 Each folder contains different solutions to a set of given problems.
 
-<h3>"hello.c" inside folder "world": <strong>Hello, World</strong></h3>
+<h1>"hello.c" inside folder "world": <strong>Hello, World</strong></h1>
 
 In a file called hello.c, in a folder called world, implement a program in C that prints hello, world\n, and that’s it!
 
-<h3>"hello.c" inside folder "me": <strong>Hello, It's me</strong></h3>
+<h1>"hello.c" inside folder "me": <strong>Hello, It's me</strong></h1>
 
 In a file called hello.c, in a folder called me, implement a program in C that prompts the user for their name and then says hello to that user. For instance, if the user’s name is Adele, your program should print hello, Adele\n!
 
-<h3>"mario.c" inside folder "mario-less": <strong>Mario</strong></h3>
+<h1>"mario.c" inside folder "mario-less": <strong>Mario</strong></h1>
 
 Toward the end of World 1-1 in Nintendo’s Super Mario Bros., Mario must ascend right-aligned pyramid of bricks, as in the below.
 
@@ -26,7 +26,7 @@ But prompt the user for an int for the pyramid’s actual height, so that the pr
 
 Re-prompt the user, again and again as needed, if their input is not greater than 0 or not an int altogether.
 
-<h3>"mario.c" inside folder "mario-more": <strong>Mario</strong></h3>
+<h1>"mario.c" inside folder "mario-more": <strong>Mario</strong></h1>
 
 Toward the beginning of World 1-1 in Nintendo’s Super Mario Brothers, Mario must hop over adjacent pyramids of blocks, per the below.
 
@@ -41,7 +41,7 @@ And let’s allow the user to decide just how tall the pyramids should be by fir
 Examples:
 Notice that width of the “gap” between adjacent pyramids is equal to the width of two hashes, irrespective of the pyramids’ heights.
 
-<h3>"cash.c" inside folder "cash": <strong>Cash</strong></h3>
+<h1>"cash.c" inside folder "cash": <strong>Cash</strong></h1>
 
 Suppose you work at a store and a customer gives you $1.00 (100 cents) for candy that costs $0.50 (50 cents). You’ll need to pay them their “change,” the amount leftover after paying for the cost of the candy. When making change, odds are you want to minimize the number of coins you’re dispensing for each customer, lest you run out (or annoy the customer!). In a file called cash.c in a folder called cash, implement a program in C that prints the minimum coins needed to make the given amount of change, in cents, as in the below:
 
@@ -53,7 +53,7 @@ But prompt the user for an int greater than 0, so that the program works for any
 
 Re-prompt the user, again and again as needed, if their input is not greater than or equal to 0 (or if their input isn’t an int at all!).
 
-<h3>"credit.c" inside folder "credit": <strong>Credit</strong></h3>
+<h1>"credit.c" inside folder "credit": <strong>Credit</strong></h1>
 
 A credit (or debit) card, of course, is a plastic card with which you can pay for goods and services. Printed on that card is a number that’s also stored in a database somewhere, so that when your card is used to buy something, the creditor knows whom to bill. There are a lot of people with credit cards in this world, so those numbers are pretty long: American Express uses 15-digit numbers, MasterCard uses 16-digit numbers, and Visa uses 13- and 16-digit numbers. And those are decimal numbers (0 through 9), not binary, which means, for instance, that American Express could print as many as 10^15 = 1,000,000,000,000,000 unique cards! (That’s, um, a quadrillion.)
 
